@@ -3,7 +3,6 @@ import MeetupList from "../components/meetups/MeetupList";
 import Head from "next/head";
 
 const HomePage = (props) => {
-  console.log(props.meetupDatas);
   return (
     <>
       <Head>

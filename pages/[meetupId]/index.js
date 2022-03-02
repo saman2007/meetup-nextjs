@@ -58,7 +58,7 @@ export async function getStaticProps(context) {
         address: meetup.address,
       },
     },
-    revalidate: 60,
+    revalidate: 1,
   };
 }
 export default MeetupDetails;
